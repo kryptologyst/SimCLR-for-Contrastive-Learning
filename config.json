@@ -1,0 +1,27 @@
+{
+  "model": {
+    "backbone": "resnet18",
+    "projection_dim": 128,
+    "hidden_dim": 512,
+    "temperature": 0.5
+  },
+  "training": {
+    "batch_size": 256,
+    "learning_rate": 3e-4,
+    "epochs": 200,
+    "weight_decay": 1e-4,
+    "warmup_epochs": 10,
+    "num_workers": 4
+  },
+  "data": {
+    "dataset": "cifar10",
+    "image_size": 32,
+    "download": true
+  },
+  "logging": {
+    "log_dir": "./logs",
+    "checkpoint_dir": "./checkpoints",
+    "use_wandb": true,
+    "project_name": "simclr-cifar10"
+  }
+}
