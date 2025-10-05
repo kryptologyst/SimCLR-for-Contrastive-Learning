@@ -41,8 +41,8 @@ A modern, comprehensive implementation of SimCLR (Simple Framework for Contrasti
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/simclr-contrastive-learning.git
-cd simclr-contrastive-learning
+git clone https://github.com/kryptologyst/SimCLR-for-Contrastive-Learning.git
+cd SimCLR-for-Contrastive-Learning
 
 # Install requirements
 pip install -r requirements.txt
